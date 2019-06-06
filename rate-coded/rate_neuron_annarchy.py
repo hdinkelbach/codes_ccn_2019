@@ -15,10 +15,7 @@ Lin_rate_ipn = Neuron(
         sigma = 5.0 : population
     """,
     equations = """
-        # tau * dmp/dt = sum(exc) - sum(inh)
-        # r += mp + sqrt(tau/dt) * Normal(mean, sigma) #: min=0.0 # nest/dracu use a lower rectify
-
-        r += dt/tau*(sum(exc) - sum(inh) - r) + sigma * Normal(mean, 1) / sqrt(tau) #: min=0.0 # needed?
+        r += dt/tau*(sum(exc) - sum(inh) - r) + sigma * Normal(mean, 1) / sqrt(tau)
     """
 )
 
