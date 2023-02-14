@@ -1,4 +1,9 @@
-This repository contains the benchmark codes for the article submitted to the CCN conference 2019. In this work we compare several neural simulators
+This repository contains the benchmark codes for the article: 
+
+Dinkelbach, H.Ü., Vitay, J. and Hamker, F. H. (2019) Scalable simulation of rate-coded and spiking neural networks on shared memory
+systems. *2019 Conference on Cognitive Computational Neuroscience*. Berlin (Germany). (available online: https://ccneuro.org/2019/proceedings/0000526.pdf)
+
+In this work we compare several neural simulators
 
 * Auryn: https://fzenke.net/auryn/doku.php
 * ANNarchy: https://bitbucket.org/annarchy/annarchy
